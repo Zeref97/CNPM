@@ -1,0 +1,33 @@
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\bin\Debug\quanlihocsinh.exe.config
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\bin\Debug\quanlihocsinh.exe
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\bin\Debug\quanlihocsinh.pdb
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.csprojResolveAssemblyReference.cache
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.bangdiem.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongkethocki.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongketmon.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Form1.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Properties.Resources.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Quydinh.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tiepnhanhocsinh.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tracuuhocsinh.resources
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.csproj.GenerateResource.Cache
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.csproj.CoreCompileInputs.cache
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.exe
+C:\Users\Pham Quoc Long\source\repos\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.pdb
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\bin\Debug\quanlihocsinh.exe.config
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.exe
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.pdb
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\bin\Debug\quanlihocsinh.exe
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\bin\Debug\quanlihocsinh.pdb
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.csprojResolveAssemblyReference.cache
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.bangdiem.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongkethocki.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongketmon.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Form1.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Properties.Resources.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.Quydinh.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tiepnhanhocsinh.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tracuuhocsinh.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.csproj.GenerateResource.Cache
