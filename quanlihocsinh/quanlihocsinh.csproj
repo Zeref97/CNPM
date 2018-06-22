@@ -78,6 +78,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyHocSinhDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Quydinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +144,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QuanLyHocSinhDataSet.xsc">
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyHocSinhDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyHocSinhDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyHocSinhDataSet.xss">
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

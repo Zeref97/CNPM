@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBoxemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,7 +42,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.buttonthem = new System.Windows.Forms.Button();
+            this.quanLyHocSinhDataSet = new quanlihocsinh.QuanLyHocSinhDataSet();
+            this.hOCSINHBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hOCSINHTableAdapter = new quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.HOCSINHTableAdapter();
+            this.tableAdapterManager = new quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.TableAdapterManager();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyHocSinhDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOCSINHBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -171,6 +178,41 @@
             this.buttonthem.UseVisualStyleBackColor = true;
             this.buttonthem.Click += new System.EventHandler(this.buttonthem_Click);
             // 
+            // quanLyHocSinhDataSet
+            // 
+            this.quanLyHocSinhDataSet.DataSetName = "QuanLyHocSinhDataSet";
+            this.quanLyHocSinhDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // hOCSINHBindingSource
+            // 
+            this.hOCSINHBindingSource.DataMember = "HOCSINH";
+            this.hOCSINHBindingSource.DataSource = this.quanLyHocSinhDataSet;
+            // 
+            // hOCSINHTableAdapter
+            // 
+            this.hOCSINHTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.BAOCAOTONGKETHOCKYTableAdapter = null;
+            this.tableAdapterManager.BAOCAOTONGKETMONTableAdapter = null;
+            this.tableAdapterManager.DANHSACHHOCSINHTableAdapter = null;
+            this.tableAdapterManager.DIEMTableAdapter = null;
+            this.tableAdapterManager.HOCKYTableAdapter = null;
+            this.tableAdapterManager.HOCSINHTableAdapter = this.hOCSINHTableAdapter;
+            this.tableAdapterManager.KHOITableAdapter = null;
+            this.tableAdapterManager.KQ_HOC_KY_MON_HOCTableAdapter = null;
+            this.tableAdapterManager.KQ_HOC_KY_TONG_HOPTableAdapter = null;
+            this.tableAdapterManager.LOAIDIEMTableAdapter = null;
+            this.tableAdapterManager.LOPTableAdapter = null;
+            this.tableAdapterManager.MONHOCTableAdapter = null;
+            this.tableAdapterManager.NAMHOCTableAdapter = null;
+            this.tableAdapterManager.NGUOIDUNGTableAdapter = null;
+            this.tableAdapterManager.PHANLOPTableAdapter = null;
+            this.tableAdapterManager.THAMSOTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
             // tiepnhanhocsinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -182,6 +224,8 @@
             this.Text = "tiepnhanhocsinh";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyHocSinhDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOCSINHBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,11 +239,15 @@
         private System.Windows.Forms.RadioButton checkBoxX2;
         private System.Windows.Forms.RadioButton checkBoxX1;
         private System.Windows.Forms.TextBox textBoxdiachi;
-        private System.Windows.Forms.TextBox textBoxTenhs;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button buttonthem;
+        private QuanLyHocSinhDataSet quanLyHocSinhDataSet;
+        private System.Windows.Forms.BindingSource hOCSINHBindingSource;
+        private QuanLyHocSinhDataSetTableAdapters.HOCSINHTableAdapter hOCSINHTableAdapter;
+        private QuanLyHocSinhDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.TextBox textBoxTenhs;
+        private System.Windows.Forms.Label label7;
     }
 }
