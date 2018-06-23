@@ -49,23 +49,12 @@ namespace quanlihocsinh
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bienToanCuc.tuoiToiThieu = Convert.ToInt32(numericUpDown1.Value);
-            bienToanCuc.tuoiToiThieu = Convert.ToInt32(numericUpDown2.Value);
+           
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
 
         }
-    }
-
-    public class bienToanCuc
-    {
-        public static int tuoiToiThieu = 15;
-        public static int tuoiToiDa = 18;
-        public static int siSoToiDa = 40;
-        public static int soLuongToiDa10 = 4;
-        public static int soLuongToiDa11 = 3;
-        public static int soLuongToiDa12 = 2;
     }
 }
