@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBoxemail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimeInput1 = new System.Windows.Forms.DateTimePicker();
-            this.checkBoxX2 = new System.Windows.Forms.RadioButton();
-            this.checkBoxX1 = new System.Windows.Forms.RadioButton();
+            this.dateTimeInputBirth = new System.Windows.Forms.DateTimePicker();
+            this.checkBoxNu = new System.Windows.Forms.RadioButton();
+            this.checkBoxNam = new System.Windows.Forms.RadioButton();
             this.textBoxdiachi = new System.Windows.Forms.TextBox();
             this.textBoxTenhs = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -41,16 +42,22 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.buttonthem = new System.Windows.Forms.Button();
+            this.quanLyHocSinhDataSet = new quanlihocsinh.QuanLyHocSinhDataSet();
+            this.hOCSINHBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hOCSINHTableAdapter = new quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.HOCSINHTableAdapter();
+            this.tableAdapterManager = new quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.TableAdapterManager();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyHocSinhDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOCSINHBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBoxemail);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.dateTimeInput1);
-            this.groupBox1.Controls.Add(this.checkBoxX2);
-            this.groupBox1.Controls.Add(this.checkBoxX1);
+            this.groupBox1.Controls.Add(this.dateTimeInputBirth);
+            this.groupBox1.Controls.Add(this.checkBoxNu);
+            this.groupBox1.Controls.Add(this.checkBoxNam);
             this.groupBox1.Controls.Add(this.textBoxdiachi);
             this.groupBox1.Controls.Add(this.textBoxTenhs);
             this.groupBox1.Controls.Add(this.label7);
@@ -82,34 +89,35 @@
             this.label1.TabIndex = 79;
             this.label1.Text = "Email:";
             // 
-            // dateTimeInput1
+            // dateTimeInputBirth
             // 
-            this.dateTimeInput1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeInput1.Location = new System.Drawing.Point(137, 110);
-            this.dateTimeInput1.Name = "dateTimeInput1";
-            this.dateTimeInput1.Size = new System.Drawing.Size(193, 20);
-            this.dateTimeInput1.TabIndex = 78;
-            this.dateTimeInput1.Value = new System.DateTime(1990, 10, 12, 2, 48, 0, 0);
+            this.dateTimeInputBirth.CustomFormat = "";
+            this.dateTimeInputBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeInputBirth.Location = new System.Drawing.Point(137, 110);
+            this.dateTimeInputBirth.Name = "dateTimeInputBirth";
+            this.dateTimeInputBirth.Size = new System.Drawing.Size(193, 20);
+            this.dateTimeInputBirth.TabIndex = 78;
+            this.dateTimeInputBirth.Value = new System.DateTime(1990, 10, 12, 2, 48, 0, 0);
             // 
-            // checkBoxX2
+            // checkBoxNu
             // 
-            this.checkBoxX2.Location = new System.Drawing.Point(219, 77);
-            this.checkBoxX2.Name = "checkBoxX2";
-            this.checkBoxX2.Size = new System.Drawing.Size(58, 21);
-            this.checkBoxX2.TabIndex = 77;
-            this.checkBoxX2.TabStop = true;
-            this.checkBoxX2.Text = "Nữ";
-            this.checkBoxX2.UseVisualStyleBackColor = true;
+            this.checkBoxNu.Location = new System.Drawing.Point(219, 77);
+            this.checkBoxNu.Name = "checkBoxNu";
+            this.checkBoxNu.Size = new System.Drawing.Size(58, 21);
+            this.checkBoxNu.TabIndex = 77;
+            this.checkBoxNu.TabStop = true;
+            this.checkBoxNu.Text = "Nữ";
+            this.checkBoxNu.UseVisualStyleBackColor = true;
             // 
-            // checkBoxX1
+            // checkBoxNam
             // 
-            this.checkBoxX1.Location = new System.Drawing.Point(137, 77);
-            this.checkBoxX1.Name = "checkBoxX1";
-            this.checkBoxX1.Size = new System.Drawing.Size(76, 21);
-            this.checkBoxX1.TabIndex = 76;
-            this.checkBoxX1.TabStop = true;
-            this.checkBoxX1.Text = "Nam";
-            this.checkBoxX1.UseVisualStyleBackColor = true;
+            this.checkBoxNam.Location = new System.Drawing.Point(137, 77);
+            this.checkBoxNam.Name = "checkBoxNam";
+            this.checkBoxNam.Size = new System.Drawing.Size(76, 21);
+            this.checkBoxNam.TabIndex = 76;
+            this.checkBoxNam.TabStop = true;
+            this.checkBoxNam.Text = "Nam";
+            this.checkBoxNam.UseVisualStyleBackColor = true;
             // 
             // textBoxdiachi
             // 
@@ -171,6 +179,41 @@
             this.buttonthem.UseVisualStyleBackColor = true;
             this.buttonthem.Click += new System.EventHandler(this.buttonthem_Click);
             // 
+            // quanLyHocSinhDataSet
+            // 
+            this.quanLyHocSinhDataSet.DataSetName = "QuanLyHocSinhDataSet";
+            this.quanLyHocSinhDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // hOCSINHBindingSource
+            // 
+            this.hOCSINHBindingSource.DataMember = "HOCSINH";
+            this.hOCSINHBindingSource.DataSource = this.quanLyHocSinhDataSet;
+            // 
+            // hOCSINHTableAdapter
+            // 
+            this.hOCSINHTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.BAOCAOTONGKETHOCKYTableAdapter = null;
+            this.tableAdapterManager.BAOCAOTONGKETMONTableAdapter = null;
+            this.tableAdapterManager.DANHSACHHOCSINHTableAdapter = null;
+            this.tableAdapterManager.DIEMTableAdapter = null;
+            this.tableAdapterManager.HOCKYTableAdapter = null;
+            this.tableAdapterManager.HOCSINHTableAdapter = this.hOCSINHTableAdapter;
+            this.tableAdapterManager.KHOITableAdapter = null;
+            this.tableAdapterManager.KQ_HOC_KY_MON_HOCTableAdapter = null;
+            this.tableAdapterManager.KQ_HOC_KY_TONG_HOPTableAdapter = null;
+            this.tableAdapterManager.LOAIDIEMTableAdapter = null;
+            this.tableAdapterManager.LOPTableAdapter = null;
+            this.tableAdapterManager.MONHOCTableAdapter = null;
+            this.tableAdapterManager.NAMHOCTableAdapter = null;
+            this.tableAdapterManager.NGUOIDUNGTableAdapter = null;
+            this.tableAdapterManager.PHANLOPTableAdapter = null;
+            this.tableAdapterManager.THAMSOTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
             // tiepnhanhocsinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,9 +222,11 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.buttonthem);
             this.Name = "tiepnhanhocsinh";
-            this.Text = "tiepnhanhocsinh";
+            this.Text = "Tiếp Nhận Học Sinh";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.quanLyHocSinhDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOCSINHBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -191,15 +236,19 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBoxemail;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimeInput1;
-        private System.Windows.Forms.RadioButton checkBoxX2;
-        private System.Windows.Forms.RadioButton checkBoxX1;
+        private System.Windows.Forms.DateTimePicker dateTimeInputBirth;
+        private System.Windows.Forms.RadioButton checkBoxNu;
+        private System.Windows.Forms.RadioButton checkBoxNam;
         private System.Windows.Forms.TextBox textBoxdiachi;
-        private System.Windows.Forms.TextBox textBoxTenhs;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button buttonthem;
+        private QuanLyHocSinhDataSet quanLyHocSinhDataSet;
+        private System.Windows.Forms.BindingSource hOCSINHBindingSource;
+        private QuanLyHocSinhDataSetTableAdapters.HOCSINHTableAdapter hOCSINHTableAdapter;
+        private QuanLyHocSinhDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.TextBox textBoxTenhs;
+        private System.Windows.Forms.Label label7;
     }
 }
