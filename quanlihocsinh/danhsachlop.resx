@@ -117,4 +117,370 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonX7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonX7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 71</value>
+  </data>
+  <data name="&gt;&gt;hOCSINHTableAdapter.Type" xml:space="preserve">
+    <value>quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.HOCSINHTableAdapter, QuanLyHocSinhDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewClass.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClass.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonX7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>danhsachlop</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="buttonX7.Text" xml:space="preserve">
+    <value>Hiển Thị Danh Sách</value>
+  </data>
+  <data name="buttonX7.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="comboBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 71</value>
+  </data>
+  <data name="&gt;&gt;dANHSACHHOCSINHBindingSource.Name" xml:space="preserve">
+    <value>dANHSACHHOCSINHBindingSource</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 74</value>
+  </data>
+  <data name="buttonX7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 27</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 27</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
+    <value>quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.TableAdapterManager, QuanLyHocSinhDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 21</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
+    <value>tableAdapterManager</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClass.Name" xml:space="preserve">
+    <value>dataGridViewClass</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Sĩ số:</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.Name" xml:space="preserve">
+    <value>comboBox3</value>
+  </data>
+  <data name="dataGridViewClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 109</value>
+  </data>
+  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 27</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Lớp:</value>
+  </data>
+  <data name="comboBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Khối:</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="&gt;&gt;quanLyHocSinhDataSet.Name" xml:space="preserve">
+    <value>quanLyHocSinhDataSet</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 30</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 27</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonX7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 74</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Danh Sách Lớp</value>
+  </data>
+  <data name="&gt;&gt;buttonX7.Name" xml:space="preserve">
+    <value>buttonX7</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Năm học:</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 30</value>
+  </data>
+  <data name="&gt;&gt;dANHSACHHOCSINHTableAdapter.Type" xml:space="preserve">
+    <value>quanlihocsinh.QuanLyHocSinhDataSetTableAdapters.DANHSACHHOCSINHTableAdapter, QuanLyHocSinhDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="&gt;&gt;quanLyHocSinhDataSet.Type" xml:space="preserve">
+    <value>quanlihocsinh.QuanLyHocSinhDataSet, QuanLyHocSinhDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>483, 237</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;dANHSACHHOCSINHTableAdapter.Name" xml:space="preserve">
+    <value>dANHSACHHOCSINHTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;dANHSACHHOCSINHBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>507, 403</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hOCSINHBindingSource.Name" xml:space="preserve">
+    <value>hOCSINHBindingSource</value>
+  </data>
+  <data name="&gt;&gt;buttonX7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;hOCSINHBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Name" xml:space="preserve">
+    <value>comboBox2</value>
+  </data>
+  <data name="&gt;&gt;hOCSINHTableAdapter.Name" xml:space="preserve">
+    <value>hOCSINHTableAdapter</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Lớp:</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonX7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 363</value>
+  </data>
+  <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>508, 56</value>
+  </metadata>
+  <metadata name="hOCSINHTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>199, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="hOCSINHBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="quanLyHocSinhDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>376, 17</value>
+  </metadata>
+  <metadata name="dANHSACHHOCSINHBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>dje-NE</value>
+  </metadata>
+  <metadata name="dANHSACHHOCSINHTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>265, 56</value>
+  </metadata>
 </root>
