@@ -31,3 +31,7 @@ C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanliho
 C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tiepnhanhocsinh.resources
 C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tracuuhocsinh.resources
 C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.csproj.GenerateResource.Cache
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\bin\Debug\dje-NE\quanlihocsinh.resources.dll
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.dje-NE.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\dje-NE\quanlihocsinh.resources.dll
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.lapdanhsach.resources
