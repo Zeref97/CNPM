@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{675F73FC-3245-4F87-88B5-57A5C64EA01C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>quanlihocsinh</RootNamespace>
+    <AssemblyName>quanlihocsinh</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bangdiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bangdiem.Designer.cs">
+      <DependentUpon>bangdiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Baocaotongkethocki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baocaotongkethocki.Designer.cs">
+      <DependentUpon>Baocaotongkethocki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Baocaotongketmon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baocaotongketmon.Designer.cs">
+      <DependentUpon>Baocaotongketmon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="danhsachlop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="danhsachlop.Designer.cs">
+      <DependentUpon>danhsachlop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\HocSinhDAO.cs" />
+    <Compile Include="DAO\ThamsoDAO.cs" />
+    <Compile Include="DTO\Account.cs" />
+    <Compile Include="DTO\HocSinh.cs" />
+    <Compile Include="fAddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddAccount.Designer.cs">
+      <DependentUpon>fAddAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAdmin.Designer.cs">
+      <DependentUpon>fAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDoiMatKhau.Designer.cs">
+      <DependentUpon>fDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyHocSinhDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Quydinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quydinh.Designer.cs">
+      <DependentUpon>Quydinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tiepnhanhocsinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tiepnhanhocsinh.Designer.cs">
+      <DependentUpon>tiepnhanhocsinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tracuuhocsinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tracuuhocsinh.Designer.cs">
+      <DependentUpon>tracuuhocsinh.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bangdiem.resx">
+      <DependentUpon>bangdiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocaotongkethocki.resx">
+      <DependentUpon>Baocaotongkethocki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baocaotongketmon.resx">
+      <DependentUpon>Baocaotongketmon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="danhsachlop.dje-NE.resx">
+      <DependentUpon>danhsachlop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="danhsachlop.resx">
+      <DependentUpon>danhsachlop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAddAccount.resx">
+      <DependentUpon>fAddAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAdmin.resx">
+      <DependentUpon>fAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDoiMatKhau.resx">
+      <DependentUpon>fDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Quydinh.resx">
+      <DependentUpon>Quydinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tiepnhanhocsinh.resx">
+      <DependentUpon>tiepnhanhocsinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tracuuhocsinh.resx">
+      <DependentUpon>tracuuhocsinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QuanLyHocSinhDataSet.xsc">
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyHocSinhDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyHocSinhDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyHocSinhDataSet.xss">
+      <DependentUpon>QuanLyHocSinhDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
