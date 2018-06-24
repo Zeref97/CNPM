@@ -31,3 +31,53 @@ C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanliho
 C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tiepnhanhocsinh.resources
 C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.tracuuhocsinh.resources
 C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.csproj.GenerateResource.Cache
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\bin\Debug\dje-NE\quanlihocsinh.resources.dll
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.dje-NE.resources
+C:\Users\Tan\Downloads\Compressed\quanlihocsinh\quanlihocsinh\obj\Debug\dje-NE\quanlihocsinh.resources.dll
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\bin\Debug\quanlihocsinh.exe.config
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.exe
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.pdb
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\bin\Debug\quanlihocsinh.exe
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\bin\Debug\quanlihocsinh.pdb
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\bin\Debug\dje-NE\quanlihocsinh.resources.dll
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.csprojResolveAssemblyReference.cache
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.bangdiem.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongkethocki.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongketmon.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.Form1.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.Properties.Resources.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.Quydinh.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.tiepnhanhocsinh.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.tracuuhocsinh.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.dje-NE.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.csproj.GenerateResource.Cache
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\dje-NE\quanlihocsinh.resources.dll
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.fAddAccount.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.fAdmin.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.fDoiMatKhau.resources
+D:\Lyo\Study\Nam 3\HKII\ProjectQLHS\Version_2\CNPM-Version_2\quanlihocsinh\obj\Debug\quanlihocsinh.fLogin.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\bin\Debug\quanlihocsinh.exe.config
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.exe
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.pdb
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\bin\Debug\quanlihocsinh.exe
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\bin\Debug\quanlihocsinh.pdb
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\bin\Debug\dje-NE\quanlihocsinh.resources.dll
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.csprojResolveAssemblyReference.cache
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.bangdiem.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongkethocki.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.Baocaotongketmon.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.fAddAccount.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.fAdmin.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.fDoiMatKhau.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.fLogin.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.Form1.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.Properties.Resources.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.Quydinh.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.tiepnhanhocsinh.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.tracuuhocsinh.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.danhsachlop.dje-NE.resources
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.csproj.GenerateResource.Cache
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\dje-NE\quanlihocsinh.resources.dll
+C:\Users\Tan\Downloads\Compressed\CNPM-Version_2-with-login\CNPM-Version_2_withLogin\quanlihocsinh\obj\Debug\quanlihocsinh.lapdanhsach.resources

@@ -92,7 +92,7 @@
             this.buttonX7.Name = "buttonX7";
             this.buttonX7.Size = new System.Drawing.Size(151, 40);
             this.buttonX7.TabIndex = 66;
-            this.buttonX7.Text = "Hiện Thị Báo Cáo";
+            this.buttonX7.Text = "Hiển Thị Báo Cáo";
             this.buttonX7.UseVisualStyleBackColor = true;
             // 
             // Baocaotongketmon

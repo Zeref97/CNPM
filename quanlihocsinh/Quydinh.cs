@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace quanlihocsinh
 {
     public partial class Quydinh : Form
     {
+        //kết nối database
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-L5BFQ4T;Initial Catalog=QuanLyHocSinh;Integrated Security=True");
+                
         public Quydinh()
         {
             InitializeComponent();
+            connection.Open(); //Mở kết nối database
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -31,12 +36,7 @@ namespace quanlihocsinh
         {
 
         }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             
@@ -47,25 +47,70 @@ namespace quanlihocsinh
             
         }
 
+
+        //Event thay đổi tuổi tối thiểu và tuổi tối đa
         private void button1_Click(object sender, EventArgs e)
         {
-            bienToanCuc.tuoiToiThieu = Convert.ToInt32(numericUpDown1.Value);
-            bienToanCuc.tuoiToiThieu = Convert.ToInt32(numericUpDown2.Value);
+            try
+            {
+                //Truy vấn lấy thông tin trong database load lên grid, dùng 'N' đặt trước LIKE để search tên tiếng việt
+                SqlCommand cmd = new SqlCommand("UPDATE THAMSO SET TuoiToiThieu = '" + numericUpDownMinOld.Value + "', TuoiToiDa = '" + numericUpDownMaxOld.Value + "'", connection);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Cập nhật thành công.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
 
         }
-    }
 
-    public class bienToanCuc
-    {
-        public static int tuoiToiThieu = 15;
-        public static int tuoiToiDa = 18;
-        public static int siSoToiDa = 40;
-        public static int soLuongToiDa10 = 4;
-        public static int soLuongToiDa11 = 3;
-        public static int soLuongToiDa12 = 2;
+        //Event thoát form của tuổi
+        private void button9_Click(object sender, EventArgs e)
+        {
+            connection.Close();
+            this.Close();
+        }
+
+        //Event thoát form của lớp
+        private void button10_Click(object sender, EventArgs e)
+        {
+            connection.Close();
+            this.Close();
+        }
+
+        //Event thoát form của Môn học
+        private void button11_Click(object sender, EventArgs e)
+        {
+            connection.Close();
+            this.Close();
+        }
+
+        //Event thoát form của Điểm
+        private void button12_Click(object sender, EventArgs e)
+        {
+            connection.Close();
+            this.Close();
+        }
+
+        //Event thay đổi điểm đạt môn
+        private void button8_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //Truy vấn lấy thông tin trong database load lên grid, dùng 'N' đặt trước LIKE để search tên tiếng việt
+                SqlCommand cmd = new SqlCommand("UPDATE THAMSO SET DiemDatMon = '" + numericUpDownDiem.Value + "'", connection);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Cập nhật thành công.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
+        }
     }
 }
