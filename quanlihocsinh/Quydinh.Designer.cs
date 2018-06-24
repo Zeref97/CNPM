@@ -31,8 +31,8 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownMaxOld = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownMinOld = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -67,18 +67,23 @@
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button8 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.numericUpDownDiem = new System.Windows.Forms.NumericUpDown();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxOld)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMinOld)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDiem)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -95,9 +100,10 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button9);
             this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.numericUpDown2);
-            this.tabPage1.Controls.Add(this.numericUpDown1);
+            this.tabPage1.Controls.Add(this.numericUpDownMaxOld);
+            this.tabPage1.Controls.Add(this.numericUpDownMinOld);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
@@ -110,7 +116,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(165, 150);
+            this.button1.Location = new System.Drawing.Point(34, 150);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -118,31 +124,31 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // numericUpDown2
+            // numericUpDownMaxOld
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(120, 84);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown2.TabIndex = 3;
-            this.numericUpDown2.Value = new decimal(new int[] {
+            this.numericUpDownMaxOld.Location = new System.Drawing.Point(120, 84);
+            this.numericUpDownMaxOld.Name = "numericUpDownMaxOld";
+            this.numericUpDownMaxOld.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownMaxOld.TabIndex = 3;
+            this.numericUpDownMaxOld.Value = new decimal(new int[] {
             20,
             0,
             0,
             0});
-            this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
+            this.numericUpDownMaxOld.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
-            // numericUpDown1
+            // numericUpDownMinOld
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(120, 24);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 2;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.numericUpDownMinOld.Location = new System.Drawing.Point(120, 24);
+            this.numericUpDownMinOld.Name = "numericUpDownMinOld";
+            this.numericUpDownMinOld.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownMinOld.TabIndex = 2;
+            this.numericUpDownMinOld.Value = new decimal(new int[] {
             15,
             0,
             0,
             0});
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.numericUpDownMinOld.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // label2
             // 
@@ -164,6 +170,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button10);
             this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Controls.Add(this.button3);
             this.tabPage2.Controls.Add(this.button2);
@@ -189,7 +196,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(192, 195);
+            this.button4.Location = new System.Drawing.Point(28, 195);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(110, 37);
             this.button4.TabIndex = 14;
@@ -313,6 +320,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button11);
             this.tabPage4.Controls.Add(this.button7);
             this.tabPage4.Controls.Add(this.button6);
             this.tabPage4.Controls.Add(this.button5);
@@ -336,7 +344,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(192, 164);
+            this.button7.Location = new System.Drawing.Point(26, 164);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(137, 46);
             this.button7.TabIndex = 12;
@@ -445,8 +453,9 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.numericUpDownDiem);
+            this.tabPage5.Controls.Add(this.button12);
             this.tabPage5.Controls.Add(this.button8);
-            this.tabPage5.Controls.Add(this.textBox9);
             this.tabPage5.Controls.Add(this.label14);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
@@ -458,20 +467,13 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(130, 114);
+            this.button8.Location = new System.Drawing.Point(27, 108);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 2;
             this.button8.Text = "Đồng ý";
             this.button8.UseVisualStyleBackColor = true;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(130, 32);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 1;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label14
             // 
@@ -481,6 +483,63 @@
             this.label14.Size = new System.Drawing.Size(79, 13);
             this.label14.TabIndex = 0;
             this.label14.Text = "Điểm đạt môn :";
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(189, 150);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 5;
+            this.button9.Text = "Thoát";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(351, 195);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(110, 37);
+            this.button10.TabIndex = 15;
+            this.button10.Text = "Thoát";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(328, 164);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(137, 46);
+            this.button11.TabIndex = 13;
+            this.button11.Text = "Thoát";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(155, 108);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 3;
+            this.button12.Text = "Thoát";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // numericUpDownDiem
+            // 
+            this.numericUpDownDiem.Location = new System.Drawing.Point(120, 33);
+            this.numericUpDownDiem.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDownDiem.Name = "numericUpDownDiem";
+            this.numericUpDownDiem.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDownDiem.TabIndex = 4;
+            this.numericUpDownDiem.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
             // Quydinh
             // 
@@ -493,8 +552,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxOld)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMinOld)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
@@ -504,6 +563,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDiem)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -515,8 +575,8 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numericUpDownMaxOld;
+        private System.Windows.Forms.NumericUpDown numericUpDownMinOld;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox4;
@@ -548,8 +608,12 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.NumericUpDown numericUpDownDiem;
     }
 }
