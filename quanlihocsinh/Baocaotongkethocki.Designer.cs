@@ -29,62 +29,100 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.buttonX7 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cmbHockyCN = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbMonhocCN = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(34, 72);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 102);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(511, 353);
+            this.dataGridView1.Size = new System.Drawing.Size(536, 283);
             this.dataGridView1.TabIndex = 75;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // buttonX7
+            // label1
             // 
-            this.buttonX7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonX7.ForeColor = System.Drawing.Color.Blue;
-            this.buttonX7.Location = new System.Drawing.Point(309, 13);
-            this.buttonX7.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonX7.Name = "buttonX7";
-            this.buttonX7.Size = new System.Drawing.Size(151, 40);
-            this.buttonX7.TabIndex = 74;
-            this.buttonX7.Text = "Hiển Thị Báo Cáo";
-            this.buttonX7.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(55, 29);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.TabIndex = 81;
+            this.label1.Text = "Năm học :";
             // 
-            // label3
+            // label2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 20);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 72;
-            this.label3.Text = "Học kỳ :";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(300, 29);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 13);
+            this.label2.TabIndex = 80;
+            this.label2.Text = "Học kỳ :";
             // 
-            // cmbHockyCN
+            // cmbMonhocCN
             // 
-            this.cmbHockyCN.FormattingEnabled = true;
-            this.cmbHockyCN.Location = new System.Drawing.Point(99, 20);
-            this.cmbHockyCN.Margin = new System.Windows.Forms.Padding(4);
-            this.cmbHockyCN.Name = "cmbHockyCN";
-            this.cmbHockyCN.Size = new System.Drawing.Size(160, 21);
-            this.cmbHockyCN.TabIndex = 70;
+            this.cmbMonhocCN.FormattingEnabled = true;
+            this.cmbMonhocCN.Location = new System.Drawing.Point(355, 26);
+            this.cmbMonhocCN.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbMonhocCN.Name = "cmbMonhocCN";
+            this.cmbMonhocCN.Size = new System.Drawing.Size(133, 21);
+            this.cmbMonhocCN.TabIndex = 79;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(119, 26);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(145, 21);
+            this.comboBox1.TabIndex = 78;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(463, 66);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(85, 29);
+            this.button1.TabIndex = 82;
+            this.button1.Text = "Hiển Thị";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Blue;
+            this.button2.Location = new System.Drawing.Point(463, 392);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(85, 40);
+            this.button2.TabIndex = 83;
+            this.button2.Text = "Thoát";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Baocaotongkethocki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(560, 445);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cmbMonhocCN);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.buttonX7);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.cmbHockyCN);
             this.Name = "Baocaotongkethocki";
-            this.Text = "Baocaotongkethocki";
+            this.Text = "Báo Cáo Tổng Kết Học Kì";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -94,8 +132,11 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button buttonX7;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cmbHockyCN;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cmbMonhocCN;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
